@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Http\Requests\AddSizeRequest;
 use App\Http\Requests\UpdateSizeRequest;
 use App\Models\Size;

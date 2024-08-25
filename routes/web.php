@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\ColorController;
-use App\Http\Controllers\CouponController;
-use App\Http\Controllers\SizeController;
+use App\Http\Controllers\Admin\CouponController;
+use App\Http\Controllers\Admin\SizeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [AdminController::class, 'login'])->name('admin.login');
